@@ -1,4 +1,4 @@
-# kodlama.io
+# Kodlama.io
 
 Programlamada kullanacağımız verinin tipi çok önemlidir ve yanlış girilen bir veri tipi kodlarımızın düzgün çalışmamasına sebep olabilir. Bazı veri tiplerine örnek vermek gerekirse:
 
@@ -27,21 +27,13 @@ Boolean komutu da genelikle bitir ve devam et tuşuna bastığımızda diğer sa
 
 # Kodlama.io sitesinde şart bloklarına örnek
 
-sayı1 = 15
-sayı2 = 16
+Sitede özellikle "Giriş yap" bölümü şu mantıkla çalışmaktadır.
 
-if sayı1 < sayı2:
-    print("sayı1 sayı2'den küçüktür")
-    
+sayı1 = True
+sayı2 = True
 
-#eğer if bloğuna girmez ise
-elif sayı1 == sayı2:
-    print("iki sayı eşittir")
+if sayı1 == sayı2:
+    print("Başarılı")
 
 else:
-    print("sayı1 sayı2'den büyüktür")
-
-
-
-print("burası if bloğunun dışıdır.")
-
+    print("Başarısız")

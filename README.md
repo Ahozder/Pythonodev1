@@ -13,7 +13,7 @@ Adresleme tipleri: dict
 
 Küme tipleri: set , frozenset
 
-Mantıksal tipler: bool
+Mantıksal tipler: boolean
 
 Binary tipler: bytes , bytearray , memoryview
 
